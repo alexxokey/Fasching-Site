@@ -1,0 +1,525 @@
+body {
+    font-size:14px;
+    font-family:"Open Sans", sans-serif;
+    background-color: #000000;
+    color: rgb(249,235,164);
+}
+
+.logo {
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+/* Header */
+
+.header {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    text-decoration: none;
+}
+
+.header li{
+    display: inline;
+}
+.header li a {
+    color: rgb(249,235,164);
+    font-size: 20px;
+    font-family: "Andika", sans-serif;
+    margin: 10px;
+    padding: 10px;
+
+}
+.header li a:hover {
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(249, 235, 164);
+}
+.header .active{
+    text-decoration: underline;
+    color: black;
+
+}
+/* Content */
+/* Home */
+
+.box {
+    padding: 20px;
+    background: #f4f8fb;
+}
+
+.subtitle {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Marck Script", sans-serif;
+    width: 33%;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.icon {
+    position: relative;
+    top: -4px;
+    margin-right: 10px;
+}
+
+.hr {
+    color: rgb(249,235,164);
+    background-color: rgb(249,235,164);
+    height: 2px;
+}
+
+
+#courses p {
+    width: 33%;
+}
+
+h1,h2 {
+    font-family: 'Marck Script', sans-serif;
+    text-align: center;
+    color: rgb(249, 235, 164);
+    font-size: 1.9em;
+}
+#team-info .row .col-xs-4 .person-img .img-responsive{
+    height: 300px;
+}
+.nominations {
+    font-family: "Marck Script", sans-serif;!important;
+    text-align: center;
+    font-size: 25px;
+}
+.nominations-images-divs{
+    height: 350px;
+    float: left;
+    margin: 25px;
+    text-align: center;
+}
+
+.nominations-images {
+    height: 300px;
+
+}
+.rabbit {
+    background-color: rgb(232,235,244);
+}
+.nominations-images-P {
+    display: inline;
+}
+
+#courses .container {
+    width: 95%;
+}
+
+.team h3{
+    font-family: "Andika", sans-serif;
+    font-size: 30px;!important;
+    color: rgb(249, 235, 164);
+    text-align: left;
+}
+.nominations h3{
+    font-family: "Marck Script", sans-serif; !important;
+
+    color: rgb(249, 235, 164);
+    text-align: left;
+}
+.team .left h3, .team .right h3{
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.team .right{
+    padding-right: 10%;
+    float: right;
+}
+
+.team .left {
+    padding-left: 10%;
+    float: left;
+}
+
+.trainerImg {
+    width: 100%;
+}
+
+/* Contacts */
+
+#contacts #map {
+    width: 97%;
+    height: 400px;
+}
+
+#contacts .panel {
+    margin-top: 10px;
+}
+
+#contacts .panel-heading {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+#contacts .panel-heading span {
+    font-size: 0.6em;
+    padding-top: 5px;
+}
+
+#contacts .input-group-addon {
+    min-width: 100px;
+}
+.person-data {
+    text-align: left;
+}
+#contacts .input-group-addon, .btn, .form-control  {
+    border-radius: 0;
+}
+
+#contacts .btn {
+    width: 100%;
+    font-size: 1.5em;
+}
+
+#contacts .btn:hover {
+    background-color: #EC971F;
+    border-color: #EC971F;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+#contacts textarea {
+    min-height: 100px;
+    max-height: 200px;
+    resize: vertical;
+}
+
+#contacts #pigeon {
+    margin: 45px 0 0 70px;
+}
+
+#contacts .address {
+    font-size: 1.3em;
+}
+
+#contacts .transport p {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#contacts .transport button {
+    font-size: 1em;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+#contacts .ticket {
+    color: #ac2925;
+    font-weight: bold;
+}
+
+/* Courses */
+section#courses article.hidden-xs {
+    position:relative
+}
+
+section#courses article img.slider-background {
+    width:100%
+}
+
+section#courses article img.slider-model {
+    position:absolute;
+    left:0;
+    bottom:0;
+    height:90%
+}
+
+section#courses article .slider-main-button {
+    padding-top:0;
+    padding-left:2%;
+    background:rgba(47,105,163,0.8);
+    width:42%;
+    height:23%;
+    position:absolute;
+    left:45%;
+    bottom:50%
+}
+
+section#courses article .slider-main-button h2 {
+    margin:3% 0;
+    font-size:2.5vw
+}
+
+section#courses article .slider-main-button p {
+    font-size:1.5vw
+}
+
+section#courses article .slider-main-button a {
+    color:#fff;
+    text-decoration:none
+}
+
+section#courses article .slider-register {
+    padding-top:0;
+    padding-left:2%;
+    background:#2f69a3;
+    width:19%;
+    height:13%;
+    position:absolute;
+    left:45%;
+    bottom:37%
+}
+
+section#courses article .slider-register a {
+    color:#fff;
+    text-decoration:none
+}
+
+section#courses article .slider-register h2 {
+    margin:9% 7%;
+    font-size:1.5vw
+}
+
+section#courses article.visible-xs>div {
+    width:100%;
+    background:rgba(47,105,163,0.8);
+    padding:10px 20px;
+    text-align:center;
+    color:#fff
+}
+
+section#courses article.visible-xs div:last-child {
+    width:100%;
+    background:#2f69a3;
+    text-align:center;
+    padding:1% 0
+}
+
+section#courses article.visible-xs div a {
+    color:#fff;
+    text-decoration:none
+}
+
+section#courses article.visible-xs div:last-child h2 {
+    margin:4% 0
+}
+
+section#courses article#content {
+    width:95%;
+    margin:30px auto;
+    text-align:left;
+    text-justify:inter-word;
+    font-size:18px
+
+}
+
+section#courses article#content h2 {
+    font-size:35px;
+    font-weight:700;
+    margin:20px 0
+
+}
+
+section#courses article#content h2 img {
+    width:30px;
+    height:30px;
+    margin-bottom:10px;
+    margin-right:5px
+}
+
+section#courses article#content .indent {
+    text-indent:50px
+}
+#team>article {
+    width: 95%;
+    margin: 30px auto;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 30px;
+    font-size: 18px;
+    text-indent: 3%;
+}
+#team hr {
+    color: rgb(249,235,164);
+    background-color: rgb(249,235,164);
+    height: 2px;
+    box-sizing: border-box;
+}
+#team hr.hidden-hr {
+    display: none;
+}
+#team img {
+    border: 2px #cfcfcf solid;
+}
+
+/* About Team */
+#team #about-us {
+    text-align: center;
+}
+#team #about-us>div>p{
+    padding: 6px 6px 6px 6px;
+    text-align: justify;
+    line-height: 30px;
+}
+#team #about-us>div>img {
+    width: 40%;
+    float: left;
+    margin: 20px 10px 1px;
+}
+
+/* Personal Info */
+.charity {
+    margin-left: 10%;
+    width: 80%;
+}
+#team>#team-info .col-xs-4 {
+    padding: 15px;
+}
+#team>#team-info .person-img{
+    height: 85%;
+    display: block;
+}
+#team>#team-info .person-data{
+    height: auto;
+    text-indent: 1px;
+}
+#team>#team-info strong{
+    display: inline;
+}
+#team>#team-info .person-img>img{
+    width: 100%;
+}
+#team>#team-info .col-xs-4:hover{
+    -ms-transform: scale(0.9); /* IE 9 */
+    -webkit-transform: scale(0.9); /* Chrome, Safari, Opera */
+    -moz-transform: scale(0.9); /* Mozilla */
+    -o-transform: scale(0.9); /* Opera 10.5 */
+    transform: scale(0.9);
+    -webkit-box-shadow:0 0 30px #ccc; /* Chrome, Safari */
+    -moz-box-shadow:0 0 30px #ccc; /* Mozilla */
+    box-shadow:0 0 30px #ccc
+}
+#team>#team-info .col-xs-4.active{
+    -ms-transform: scale(0.9); /* IE 9 */
+    -webkit-transform: scale(0.9); /* Chrome, Safari, Opera */
+    -moz-transform: scale(0.9); /* Mozilla */
+    -o-transform: scale(0.9); /* Opera 10.5 */
+    transform: scale(0.9);
+    -webkit-box-shadow:0 0 30px #ccc; /* Chrome, Safari */
+    -moz-box-shadow:0 0 30px #ccc; /* Mozilla */
+    box-shadow:0 0 30px #ccc
+}
+#team>#team-info [id*=person-] {
+    display: none;
+    padding: 12px;
+}
+
+/* Page 404.html */
+div#error-404 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    font-style: italic;
+}
+hr{
+    width:80%;
+    border-top: 3px solid rgb(249,235,164);
+}
+
+/* Responsive */
+@media screen and (max-width: 1300px){
+    .header li a {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .header {
+        width: 580px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .team {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .team .right, .team .left {
+        width: 100%;
+        padding-left: 0;
+    }
+    .team .right h3, .team .left h3{
+        width: 50%;
+    }
+    .nominations-images-divs {
+        height: 250px;
+    }
+    .nominations-images {
+        height: 200px;
+    }
+
+}
+@media screen and (max-width: 1100px){
+    .nominations-images {
+        height: 175px;
+    }
+
+    .header{
+        width: 40%
+    }
+    .header li {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .team {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    .team .right h3, .team .left h3{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 700px){
+    .team {
+        width: 100%;
+        margin-left: 12%;
+        margin-right: auto;
+    }
+    .logo {
+        width: 50%;
+        height: 50%;
+    }
+
+    .header li{
+        display: block;
+    }
+    .header {
+        text-align: center;
+
+        padding-left: 0;
+        margin-left: 0;
+    }
+    #courses p {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 640px) {
+    #team #team-info .col-xs-4 {
+        width: 100%;
+    }
+    #team #about-us>img {
+        width: 100%;
+        margin: 0;
+    }
+    .nominations-images-divs, .nominations-images-P {
+        margin-left : 10px;
+        margin-bottom: 20px;
+    }
+}
+
+
