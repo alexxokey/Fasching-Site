@@ -34,6 +34,7 @@ body {
     color: black;
     border-radius: 10px;
     background-color: rgb(249, 235, 164);
+    cursor: pointer;
 }
 .header .active{
     text-decoration: underline;
@@ -91,16 +92,29 @@ h1,h2 {
     font-size: 25px;
 }
 .nominations-images-divs{
-    height: 350px;
+    height: 400px;
+    width: 300px;
     float: left;
     margin: 25px;
     text-align: center;
 }
 
 .nominations-images {
-    height: 300px;
-
+    height: 350px;
+    width: 300px;
 }
+.nominations-images:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.2); /* IE f9 */
+    -webkit-transform: scale(1.2); /* Chrome, Safari, Opera */
+    -moz-transform: scale(1.2); /* Mozilla */
+    -o-transform: scale(1.2); /* Opera 10.5 */
+    transform: scale(1.2);
+    -webkit-box-shadow:0 0 30px #ccc; /* Chrome, Safari */
+    -moz-box-shadow:0 0 30px #ccc; /* Mozilla */
+    box-shadow:0 0 30px #ccc;
+}
+
 .rabbit {
     background-color: rgb(232,235,244);
 }
@@ -189,6 +203,7 @@ h1,h2 {
     -ms-transition: background-color 0.3s;
     -o-transition: background-color 0.3s;
     transition: background-color 0.3s;
+    cursor: pointer;
 }
 
 #contacts textarea {
@@ -355,7 +370,17 @@ section#courses article#content .indent {
 #team img {
     border: 2px #cfcfcf solid;
 }
-
+#nominations-images-divs:hover{
+    -ms-transform: scale(0.9); /* IE f9 */
+    -webkit-transform: scale(0.9); /* Chrome, Safari, Opera */
+    -moz-transform: scale(0.9); /* Mozilla */
+    -o-transform: scale(0.9); /* Opera 10.5 */
+    transform: scale(0.9);
+    -webkit-box-shadow:0 0 30px #ccc; /* Chrome, Safari */
+    -moz-box-shadow:0 0 30px #ccc; /* Mozilla */
+    box-shadow:0 0 30px #ccc;
+    cursor: pointer;
+}
 /* About Team */
 #team #about-us {
     text-align: center;
@@ -382,6 +407,7 @@ section#courses article#content .indent {
 #team>#team-info .person-img{
     height: 85%;
     display: block;
+
 }
 #team>#team-info .person-data{
     height: auto;
@@ -401,7 +427,8 @@ section#courses article#content .indent {
     transform: scale(0.9);
     -webkit-box-shadow:0 0 30px #ccc; /* Chrome, Safari */
     -moz-box-shadow:0 0 30px #ccc; /* Mozilla */
-    box-shadow:0 0 30px #ccc
+    box-shadow:0 0 30px #ccc;
+    cursor: pointer;
 }
 #team>#team-info .col-xs-4.active{
     -ms-transform: scale(0.9); /* IE 9 */
@@ -454,16 +481,14 @@ hr{
         width: 50%;
     }
     .nominations-images-divs {
-        height: 250px;
-    }
-    .nominations-images {
-        height: 200px;
+        height: 350px;
+
     }
 
 }
 @media screen and (max-width: 1100px){
     .nominations-images {
-        height: 175px;
+        height: 300px;
     }
 
     .header{
@@ -518,7 +543,8 @@ hr{
     }
     .nominations-images-divs, .nominations-images-P {
         margin-left : 10px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+
     }
 }
 

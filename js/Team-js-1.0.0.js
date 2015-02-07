@@ -6,18 +6,18 @@ $(document).ready(function(){
 
         if($(this).hasClass('active')){
             $(this).removeClass('active');
-            $(this).parent().next().hide('fast');
-            $(".col-xs-12").hide('fast');
+            $(this).parent().next().hide('slow');
+            $(".col-xs-12").hide('slow');
         }
         else
         {
             $(".col-xs-4").removeClass('active');
-            $(".hidden-hr").hide('fast');
-            $(".col-xs-12").hide('fast');
+            $(".hidden-hr").hide('slow');
+            $(".col-xs-12").hide('slow');
 
             $(this).addClass('active');
-            $(this).parent().next().show("fast");
-            $(data_toggel).show("fast");
+            $(this).parent().next().show("slow");
+            $(data_toggel).show("slow");
         }
     });
 
